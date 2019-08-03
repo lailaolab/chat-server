@@ -36,6 +36,6 @@ io.on('connection', function(client) {
   });
 });
 
-http.listen(80, function() {
-  console.log('listening on port 80');
+http.listen(8000, function() {
+  console.log('listening on port 8000');
 });
